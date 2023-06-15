@@ -1,0 +1,137 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 35px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  float: right;
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-icon {
+  float: right;
+}
+
+.cart-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.account-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.account-details {
+    margin-top: 20px;
+}
+
+.edit-button {
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-form {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.edit-form h3 {
+    margin-top: 0;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"],
+.edit-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.save-button {
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 10px;
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
